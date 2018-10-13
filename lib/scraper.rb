@@ -22,3 +22,4 @@ end
   end # end print_courses
 
 end
+Scraper.new.get_page
