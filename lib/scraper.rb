@@ -19,10 +19,12 @@ class Scraper
 end # end get_page definition
 
 def get_courses
+  self.get_page.css(".post")
 
 end
 
 def make_courses
+
 end
 
 end #end class definition
