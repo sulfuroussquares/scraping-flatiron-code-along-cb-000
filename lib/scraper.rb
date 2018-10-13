@@ -16,7 +16,6 @@ class Scraper
   course.description = post.css("p").text
 end # end do loop
 end # end get_page definition
-  end
 
 end #end class definition
 
