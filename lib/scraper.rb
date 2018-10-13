@@ -18,6 +18,10 @@ class Scraper
 #binding.pry
 end # end get_page definition
 
+def get_courses
+
+end
+
 end #end class definition
 
 Scraper.new.get_page
